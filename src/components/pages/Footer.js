@@ -26,17 +26,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
+                        <Link to='/'>How it works</Link>
                         <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
                         <Link to='/'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Us</h2>
                         <Link to='/'>Contact</Link>
                         <Link to='/'>Support</Link>
-                        <Link to='/'>Destinations</Link>
                         <Link to='/'>Sponsorships</Link>
                     </div>
                 </div>
@@ -45,7 +42,6 @@ function Footer() {
                         <h2>Our Partners</h2>
                         <Link to='/'>Lorem ipsum</Link>
                         <Link to='/'>Sed cursus</Link>
-                        <Link to='/'>Sed fermentum</Link>
                         <Link to='/'>Proin et urna</Link>
                     </div>
                     <div class='footer-link-items'>
@@ -53,7 +49,7 @@ function Footer() {
                         <Link to='/'>Instagram</Link>
                         <Link to='/'>Facebook</Link>
                         <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+
                     </div>
                 </div>
             </div>

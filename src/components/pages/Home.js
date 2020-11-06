@@ -1,14 +1,17 @@
  import React from 'react';
  import '../../App.css';
- import React from 'react'
- 
+ import Mainpage from '../Mainpage';
+ import AddCompany from '../pages/AddCompany';
+import Footer from '../pages/Footer';
  function Home() {
      return (
-         <div>
-             
-         </div>
-     )
+         <>
+             <Mainpage />
+             <AddCompany/>
+             <Footer/>
+
+         </>
+     );
  }
- 
- export default Home
- 
+
+ export default Home;
