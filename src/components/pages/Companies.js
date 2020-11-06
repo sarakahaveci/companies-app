@@ -5,13 +5,6 @@ import 'react-card-with-image/dist/index.css'
 
 import './Companies.css';
 const Companies = () => {
-    // const [maxNumber, setmaxNumber] = useState();
-    // const [minNumber, setminNumber] = useState();
-    // const handleChange = (e) => {
-    //     const value = e.target.value.replace(/\D/g, "");
-    //     setmaxNumber(value);
-    //     const obj = e.target.value.replace(/\D/g, "");
-    //     setminNumber(value);
         const items = [
             {
                 id: 1,
@@ -65,10 +58,6 @@ const Companies = () => {
                     </label>
                     <input type="submit" value="Submit"/>
                 </form>
-                {/*<i className="Numbers">*/}
-                {/*    <input value={maxNumber} onChange={handleChange}/>*/}
-                {/*    <input value={minNumber} onChange={handleChange}/>*/}
-                {/*</i>*/}
             </>
         )
 };
