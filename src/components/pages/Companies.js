@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { CardView } from 'react-card-with-image';
 import 'react-card-with-image/dist/index.css'
-import AddCompany from '../pages/AddCompany';
+import Numbres from './Numbres';
 
 import './Companies.css';
 const Companies = () => {
@@ -59,7 +59,7 @@ const Companies = () => {
                     </label>
                     <input type="submit" value="Submit"/>
                 </form>
-                <AddCompany/>
+                <Numbres/>
             </>
         )
 };

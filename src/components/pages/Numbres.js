@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-function AddCompany() {
+function Numbres() {
    const [age, setAge] = useState();
         const [number, setNumber]= useState();
 
@@ -23,4 +23,4 @@ function AddCompany() {
             </>
         );
     }
-export default AddCompany;
+export default Numbres;
